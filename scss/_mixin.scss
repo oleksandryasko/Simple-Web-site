@@ -1,0 +1,93 @@
+@mixin for-header-logo {
+  font-family: $Josefin_Sans;
+  text-transform: $tt-upper;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+@mixin for-another-text {
+  font-family: $Aleo;
+  font-size: $fs-14;
+  font-weight: 400;
+  text-transform: $tt-upper;
+}
+
+@mixin for-header-text {
+  font-family: $Josefin_Sans;
+  letter-spacing: 0.27em;
+  font-weight: 300;
+  color: white;
+  text-transform: none;
+}
+
+@mixin for-text-submit {
+  font-family: $Aleo;
+  text-transform: $tt-upper;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+@mixin for-scroll {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  color: white;
+  text-transform: none;
+}
+
+@mixin for-placeholder-and-text {
+  font-family: $Josefin_Sans;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  color: #999999;
+}
+
+@mixin for-box-city {
+  font-family: $Josefin_Sans;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  color: #e8e8e8;
+}
+
+@mixin for-box-title {
+  font-family: $Josefin_Sans;
+  font-weight: 400;
+  text-transform: $tt-upper;
+  color: #ffffff;
+}
+
+@mixin for-box-text {
+  font-family: $Josefin_Sans;
+  font-weight: 400;
+  color: #e8e8e8;
+  line-height: calc(18px + 8 * ((100vw - 320px) / 1450));
+}
+
+@mixin for-autor-title {
+  font-family: $Aleo;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: calc(19px + 17 * ((100vw - 320px) / 1450));
+}
+
+@mixin for-autor-name {
+  font-family: $Josefin_Sans;
+  font-weight: 400;
+  text-transform: $tt-upper;
+  color: #fefefe;
+  font-size: calc(13px + 7 * ((100vw - 320px) / 1450));
+}
+
+@mixin for-autor-text {
+  font-family: $Josefin_Sans;
+  color: #e8e8e8;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1450));
+  line-height: calc(20px + 6 * ((100vw - 320px) / 1450));
+  opacity: 0.7;
+}
+
+@mixin for-quote {
+  font-size: calc(40px + 45 * ((100vw - 320px) / 1450));
+  font-weight: 400;
+  color: #5474fd;
+}
